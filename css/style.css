@@ -573,13 +573,52 @@ ul#filterOptions a {
 	padding-bottom: 30px;
 }
 
-.pp-easing {
-	-webkit-transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
-	-moz-transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
-	-o-transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
-	transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);		    /* custom */
-	-webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
-	-moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
-	-o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
-	transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);		    /* custom */
+.menu-panel {
+	background: #252525;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	padding: 60px 100px;
+	z-index: 10;
+}
+
+.menu-panel .menu-heading {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-panel .menu-body {
+	margin-top: 40px;
+}
+
+.menu-panel .menu-nav ul li {
+	margin-bottom: 21px;
+}
+
+.menu-panel .menu-nav ul li a {
+	color: #ffcc32;
+	font-size: 30px;
+	transition: .2s all ease;
+	font-family: 'AvenirNextLTPro-Bold';
+}
+
+.menu-panel .menu-nav ul li a:hover {
+	color: #ffffff;
+	transition: .2s all ease;
+}
+
+.menu-panel .menu-nav ul.social-feeds {
+	margin-top: 60px;
+}
+
+.menu-panel .menu-nav ul.social-feeds li {
+	margin-bottom: 16px;
+}
+
+.menu-panel .menu-nav ul.social-feeds li a {
+	font-size: 16px;
+	font-family: 'AvenirNextLTPro-Regular';
 }

@@ -11,6 +11,15 @@ $(document).ready(function() {
     }
   });
 
+  $('.menu-btn').on('click', function(event) {
+    event.preventDefault();
+    $('.menu-panel').slideDown(600);
+  });
+  $('.menu-close, .menu-nav li a').on('click', function(event) {
+    event.preventDefault();
+    $('.menu-panel').slideUp(600);
+  });
+
   $(".work-items").flip({
     trigger: 'click',
     speed: 1000
