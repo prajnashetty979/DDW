@@ -366,12 +366,24 @@
 	.work-details-container {
 		padding-top: 62px;
 	}
-#filterOptions li{
-	padding:0 5px;
+
+	#filterOptions li {
+		padding: 0 5px;
+	}
+
+	.menu-panel {
+		padding: 30px 30px;
+	}
+
+	.menu-panel .menu-nav ul li a {
+		font-size: 20px;
+	}
+
 }
-}
-@media screen and (max-width:400px){
-.glassy-art .art-dec h2 {
-    font-size: 115px;
-}
+
+@media screen and (max-width:400px) {
+	.glassy-art .art-dec h2 {
+		font-size: 115px;
+	}
+
 }
